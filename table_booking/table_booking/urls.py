@@ -20,5 +20,5 @@ from booking_app.views import my_app
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('booking_app/', my_app, name='booking_app'),  # Redirect root URL to booking_app
+    path('', my_app, name='booking_app'),  # Redirect root URL to booking_app
 ]
